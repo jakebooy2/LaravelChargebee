@@ -6,12 +6,12 @@ use Dotenv\Dotenv;
 use Illuminate\Database\Capsule\Manager as DB;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Stripe\Token;
-use TijmenWierenga\LaravelChargebee\Addon;
-use TijmenWierenga\LaravelChargebee\Billable;
-use TijmenWierenga\LaravelChargebee\Exceptions\MissingPlanException;
-use TijmenWierenga\LaravelChargebee\HandlesWebhooks;
-use TijmenWierenga\LaravelChargebee\Subscriber;
-use TijmenWierenga\LaravelChargebee\Subscription;
+use Jakebooy2\LaravelChargebee\Addon;
+use Jakebooy2\LaravelChargebee\Billable;
+use Jakebooy2\LaravelChargebee\Exceptions\MissingPlanException;
+use Jakebooy2\LaravelChargebee\HandlesWebhooks;
+use Jakebooy2\LaravelChargebee\Subscriber;
+use Jakebooy2\LaravelChargebee\Subscription;
 
 class BillableTest extends PHPUnit_Framework_TestCase
 {

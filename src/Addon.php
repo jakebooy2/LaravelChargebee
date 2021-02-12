@@ -1,5 +1,5 @@
 <?php
-namespace TijmenWierenga\LaravelChargebee;
+namespace Jakebooy2\LaravelChargebee;
 
 
 use Illuminate\Database\Eloquent\Model;

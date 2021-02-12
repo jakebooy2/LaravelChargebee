@@ -1,5 +1,5 @@
 <?php
-namespace TijmenWierenga\LaravelChargebee;
+namespace Jakebooy2\LaravelChargebee;
 
 
 use Carbon\Carbon;
@@ -8,7 +8,7 @@ use Carbon\Carbon;
  * This trait handles webhooks coming from Chargebee
  *
  * Class HandlesWebhooks
- * @package TijmenWierenga\LaravelChargebee
+ * @package Jakebooy2\LaravelChargebee
  */
 trait HandlesWebhooks
 {

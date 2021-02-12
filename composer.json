@@ -1,15 +1,15 @@
 {
-    "name": "tijmen-wierenga/laravel-chargebee",
+    "name": "jakebooy2/laravel-chargebee",
     "type": "library",
     "description": "A Laravel package which provides an easy way to handle billing and subscriptions.",
     "keywords": [
-        "TijmenWierenga",
+        "Jakebooy2",
         "Chargebee",
         "Laravel",
         "Cashier",
         "Subscription"
     ],
-    "homepage": "https://github.com/TijmenWierenga/LaravelChargebee",
+    "homepage": "https://github.com/jakebooy2/LaravelChargebee",
     "license": "MIT",
     "authors": [
         {
@@ -17,29 +17,35 @@
             "email": "tijmen@floown.com",
             "homepage": "https://www.floown.com",
             "role": "Developer"
+        },
+        {
+            "name": "Jake Steen",
+            "email": "tfkjake@gmail.com",
+            "homepage": "N/A",
+            "role": "Maintainer"
         }
     ],
     "require": {
-        "illuminate/support": "~5.1",
-        "illuminate/database": "~5.1",
-        "illuminate/console": "~5.1",
-        "php" : "~5.5|~7.0",
-        "chargebee/chargebee-php": "^1.6",
-        "stripe/stripe-php": "^3.14"
+        "illuminate/support": "^v8.26.1",
+        "illuminate/database": "^v8.27.0",
+        "illuminate/console": "^v8.27.0",
+        "php": "^7.3|^8.0",
+        "chargebee/chargebee-php": "^2.8.2",
+        "stripe/stripe-php": "v7.72.0",
     },
     "require-dev": {
-        "phpunit/phpunit" : "4.*",
-        "scrutinizer/ocular": "~1.1",
-        "squizlabs/php_codesniffer": "~2.3"
+        "phpunit/phpunit" : "^9.3.3",
+        "scrutinizer/ocular": "1.8.0",
+        "squizlabs/php_codesniffer": "4.0.x-dev"
     },
     "autoload": {
         "psr-4": {
-            "TijmenWierenga\\LaravelChargebee\\": "src"
+            "Jakebooy2\\LaravelChargebee\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TijmenWierenga\\LaravelChargebee\\Test\\": "tests"
+            "Jakebooy2\\LaravelChargebee\\Test\\": "tests"
         }
     },
     "scripts": {

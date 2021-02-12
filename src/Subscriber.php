@@ -1,16 +1,16 @@
 <?php
-namespace TijmenWierenga\LaravelChargebee;
+namespace Jakebooy2\LaravelChargebee;
 
 use ChargeBee_Environment;
 use ChargeBee_HostedPage;
 use ChargeBee_Subscription;
 use Illuminate\Database\Eloquent\Model;
-use TijmenWierenga\LaravelChargebee\Exceptions\MissingPlanException;
-use TijmenWierenga\LaravelChargebee\Exceptions\UserMismatchException;
+use Jakebooy2\LaravelChargebee\Exceptions\MissingPlanException;
+use Jakebooy2\LaravelChargebee\Exceptions\UserMismatchException;
 
 /**
  * Class Subscriber
- * @package TijmenWierenga\LaravelChargebee
+ * @package Jakebooy2\LaravelChargebee
  */
 class Subscriber
 {

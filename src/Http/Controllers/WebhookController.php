@@ -1,14 +1,14 @@
 <?php
-namespace TijmenWierenga\LaravelChargebee\Http\Controllers;
+namespace Jakebooy2\LaravelChargebee\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use TijmenWierenga\LaravelChargebee\Subscription;
+use Jakebooy2\LaravelChargebee\Subscription;
 
 /**
  * Class WebhookController
- * @package TijmenWierenga\LaravelChargebee\Http\Controllers
+ * @package Jakebooy2\LaravelChargebee\Http\Controllers
  */
 class WebhookController extends Controller
 {

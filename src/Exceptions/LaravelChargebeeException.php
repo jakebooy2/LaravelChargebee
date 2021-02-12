@@ -1,5 +1,5 @@
 <?php
-namespace TijmenWierenga\LaravelChargebee\Exceptions;
+namespace Jakebooy2\LaravelChargebee\Exceptions;
 
 
 use Exception;

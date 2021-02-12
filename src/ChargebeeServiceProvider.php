@@ -1,9 +1,9 @@
 <?php
 
-namespace TijmenWierenga\LaravelChargebee;
+namespace Jakebooy2\LaravelChargebee;
 
 use Illuminate\Support\ServiceProvider;
-use TijmenWierenga\LaravelChargebee\Commands\Install;
+use Jakebooy2\LaravelChargebee\Commands\Install;
 
 class ChargebeeServiceProvider extends ServiceProvider
 {

@@ -1,10 +1,5 @@
 # LaravelChargebee
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://travis-ci.org/TijmenWierenga/LaravelChargebee.svg?branch=master)](https://travis-ci.org/TijmenWierenga/LaravelChargebee)
-[![Total Downloads][ico-downloads]][link-downloads]
-
 A Laravel package which provides an easy way to handle billing and subscriptions by making use of [Chargebee](https://www.chargebee.com)'s subscription software.
 
 ## Introduction
@@ -30,15 +25,15 @@ Next, register the service provider in `config/app.php`:
 
 ``` php
 ['providers'] => [
-    TijmenWierenga\LaravelChargebee\ChargebeeServiceProvider::class
+    Jakebooy2\LaravelChargebee\ChargebeeServiceProvider::class
 ]
 ```
 
 Add the LaravelChargebee traits to your [model](https://laravel.com/docs/master/eloquent#defining-models):
 
 ``` php
-use TijmenWierenga\LaravelChargebee\Billable;
-use TijmenWierenga\LaravelChargebee\HandlesWebhooks;
+use Jakebooy2\LaravelChargebee\Billable;
+use Jakebooy2\LaravelChargebee\HandlesWebhooks;
 
 class User extends Eloquent {
     
@@ -250,7 +245,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-downloads]: https://img.shields.io/packagist/dt/tijmen-wierenga/laravel-chargebee.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/tijmen-wierenga/laravel-chargebee
-[link-travis]: https://travis-ci.org/TijmenWierenga/LaravelChargebee
+[link-travis]: https://travis-ci.org/Jakebooy2/LaravelChargebee
 [link-downloads]: https://packagist.org/packages/tijmen-wierenga/laravel-chargebee
-[link-author]: https://github.com/TijmenWierenga
+[link-author]: https://github.com/Jakebooy2
 [link-contributors]: ../../contributors

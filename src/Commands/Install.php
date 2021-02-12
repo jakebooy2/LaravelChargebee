@@ -1,10 +1,10 @@
 <?php
-namespace TijmenWierenga\LaravelChargebee\Commands;
+namespace Jakebooy2\LaravelChargebee\Commands;
 
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\Kernel;
-use TijmenWierenga\LaravelChargebee\ChargebeeServiceProvider;
+use Jakebooy2\LaravelChargebee\ChargebeeServiceProvider;
 
 class Install extends Command
 {
